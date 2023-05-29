@@ -1,0 +1,164 @@
+/*inicio del maquetado*/
+body{
+    /*tipografia de todo el cuerpo*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*color del fondo de la pagina*/
+    background-color:#f2f2f2;
+}
+img{
+    /*indicamos que la imagen tome el 100%*/
+    max-width: 100%;
+    
+}
+article.card{
+    max-width: 400px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    /*margen de la tarjeta*/
+    margin: 1rem;
+    box-shadow: 0 0 12px #d7d7d7;
+    /*sombra de la tarjeta*/
+    box-shadow: 1px 1px 20px 1px rgb(166, 166, 166);
+    /*separacion entre las tarjetas*/
+    margin-top: 3rem;
+    
+    
+
+}.header-card img{
+    border-radius: 8px 8px 0 0;
+    /*indica que use la imagenel 100% de el recuadro*/
+    max-height: 400px;
+    height: 500px;
+    width: 500px;
+ /*margen del texto a la imagen*/
+}.categoria-card{
+    margin-top: 3rem;
+
+}/*caracteristicas de el la categoria de la tarjeta*/
+.categoria-card span{
+    /*color del fondo*/
+    background-color: #25c4d8;
+    /*color de la letra*/
+    color: white;
+    /*ancho y alto de el fondo*/
+    padding: .2rem .5rem;
+    /*redondea el cuadrado*/
+    border-radius: 4px;
+    
+}
+.card footer{
+    padding: 0 1rem;
+}
+.perfil-card{
+    /*indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible.*/
+    display: flex;
+    align-items: center;
+
+}.img-perfil-card{
+    /*altera sus dimensiones y llena el espacio disponible*/
+    display: flex;
+}/*foto de perfil*/
+.img-perfil-card img{
+    /*ancho*/
+    width: 50px ;
+    /*alto*/
+    height: 50px;
+    /*margen de la imagen*/
+    margin:1rem 1rem 1rem 0 ;
+    /*redondea la imagen*/
+    border-radius: 50%;
+}
+.text-perfil-card{
+    /*altera sus dimensiones y llena el espacio disponible*/
+    display: flex;
+    /*nos permite acomodar los elementos de una manera mas comoda*/
+    flex-flow: column;
+}
+.card-wrap{
+    /*altera sus dimensiones y llena el espacio disponible*/
+    display: flex;
+    /*centramos las cartas*/
+    justify-content: center;
+}/*caracteristicas del cuadrado de temas*/
+.cuadro-temas{
+   /*color del fondo*/
+    background-color: #fdfafa;
+    /*ancho del cuadado*/
+    width: 30%;
+    /*alto del cuadrado*/
+    height: 64%;
+    /*edondea el cuadrado*/
+    border-radius: 8px;
+    /*sombra del fondo */
+    box-shadow: 1px 1px 20px 1px gray;
+    margin-left: 3rem;
+    position: fixed;
+    margin-top: 3rem;
+    margin-bottom: 30px;
+    
+   /*caracteristicas de los temas del cuadrado*/ 
+}a{
+    /*color de las letras*/
+    color: black;
+    /*lo uso para quitar la linea de abajo del texto*/
+    text-decoration: none;
+    /*tamaño de la letra*/
+    font-size: medium;
+    /*margen de la izquierda*/
+    margin-left: 1rem;
+
+ /*cuando pase el mause encima de el texto va a cambiar de color gracias al hover*/
+}a:hover{
+    color: #25c4d8;
+
+}
+/*puntitos de cuadro de temas*/
+li{
+    /*margen de la izquierda del recuadro*/
+    margin-left: 1rem;
+    /*color de los puntitos*/
+    color:#25c4d8 ;
+    /*tamaño de los puntitos*/
+    font-size: medium;
+}
+aside h3{
+    /*tipografia de titulo de temas*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*texto en el centro*/
+    text-align: center;
+    /*margen de el titulo (arriba)*/
+    margin-top: 10px;
+}/*caracteristicas de el contenedor de el titulo de la bitacora*/
+.contenedor-titulo{ 
+    /*color del fondo*/
+    background-color: #25c4d8;
+    /*altura de el recuadro*/
+    height: 5%;
+    /*ancho de el recuadro*/
+    width: 98%;
+    /*bordear el recuadro*/
+    border-radius: 8px;
+    /*sombra de el recuadro*/
+    box-shadow: 1px 1px 20px 1px gray;
+   
+
+   /*titulo de el recuadro de la bitacora*/ 
+}.contenedor-titulo h1{
+    /*color de la letra*/
+    color: white;
+    /*acomodamos el texto en el centro*/
+    text-align: center;
+    /*tipografia de el texto*/
+    font-family: Arial, Helvetica, sans-serif;      
+}/*caracteristicas de el contenedor que contine todos los temas*/
+.indice{
+    /*margen de la izquierda*/
+    margin-left: 2rem;
+    /*margen de la derecha*/
+    margin-right: 2rem;
+    /*margen de abajo*/
+    margin-bottom: 2rem;
+}/*caracteristicas de la fecha*/
+div .fecha-card{
+    margin-bottom: 2rem;
+}
